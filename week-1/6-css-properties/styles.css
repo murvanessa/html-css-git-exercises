@@ -1,8 +1,13 @@
 /* Add your CSS code below */
-body{
+.site-wrapper{
     line-height: 1.5em;
 }
-.link link--map link link--gif{
+.link--map  {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link--gif{
     color: red;
     font-weight: bold;
     text-decoration: none;
@@ -12,10 +17,10 @@ body{
     font-size: 0.9rem;
 }
 
-.message message--unread{
-    border-left: blue;
+.message--unread{
+    border-left: 5px solid blue;
 }
 
-.message message--old{
-    opacity:0.8;
+.message--old{
+    opacity:0.5;
 }
