@@ -1,13 +1,8 @@
 /* Add your CSS code below */
-.site-wrapper{
+.message{
     line-height: 1.5em;
 }
-.link--map  {
-    color: red;
-    font-weight: bold;
-    text-decoration: none;
-}
-.link--gif{
+.link--map , .link--gif {
     color: red;
     font-weight: bold;
     text-decoration: none;
