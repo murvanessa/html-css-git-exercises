@@ -1,27 +1,26 @@
-.site-wrapper{
-    border: 10px solid black;
-    padding: 0;
-    margin: 0;
-    width: 500px;
-    height: 500px;
+.site-wrapper {
+  width: 500px;
+  margin-top: 2rem;
+  background: #d6d8e1;
+  border-radius: 3px;
 }
-.site-header{
-    background-color: #08A8F0;
-    height: 70px;
-    padding: 4px;
+
+.site-header {
+  padding: 0.5rem 1rem;
+  background: #08A8F0;
 }
+
 .site-header > p ,.site-header__title {
-    color: white;
+  color: white;
+  margin-bottom: 0;
+  font-size: 18px;
 }
+
 .site-footer > p{
   font-size: 12px;
   text-align: center;
 }
-.message{
-      border: 10px solid #d3d3d3;
-      margin: 0;
-      padding: 0;
-}
-div time{
-  text-align: right;
+
+.message:last-child {
+  box-shadow: 4px 4px 0 #dba944;
 }
