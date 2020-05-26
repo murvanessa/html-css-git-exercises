@@ -7,3 +7,22 @@
 }
 
 /* Add your own CSS code below */
+.countries--first{
+  list-style: none;
+  justify-content: start;
+}
+.countries--second{
+  list-style: none;
+  justify-content: space-between;
+}
+.countries--third{
+  flex-direction: column;
+  list-style: none;
+  justify-content: start;
+}
+
+.countries--fourth{
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
