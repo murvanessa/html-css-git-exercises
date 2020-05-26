@@ -1,1 +1,24 @@
 /* Add your own CSS code below */
+.countries {
+    display: flex;
+    list-style: none;
+}
+.country{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.countries--first {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.countries--second{
+    flex-direction: column;
+}
+
+.countries--third {
+    flex-direction: column-reverse;
+}
