@@ -3,3 +3,9 @@
 }
 
 /* Add your own CSS code below */
+.countries--first{
+  list-style: none;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: baseline;
+}
