@@ -10,7 +10,7 @@
 .countries--second{
   list-style: none;
   flex-direction: row-reverse;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .countries--third{
