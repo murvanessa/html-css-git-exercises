@@ -1,1 +1,45 @@
 /* Add your own CSS code below */
+span.redheart{
+    color:#c85308;
+}
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-article {
+    max-width: 55em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-article p {
+    line-height: 1.8;
+  }
+
+
+@media(min-width:767px){
+    .site-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .views {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .views a {
+        margin: 18px;
+      }
+      .views a:last-child {
+        margin-left: auto;
+      }
+}
+@media (min-width:992px){
+    .here > h2{
+        font-size: 80px;
+    }
+}
